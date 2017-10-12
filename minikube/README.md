@@ -1,8 +1,8 @@
 
-### Kubernetes dashboard development setup with minikube
+# Kubernetes dashboard development setup with minikube
 
 
-# Installing minikube.
+## Installing minikube.
 
 Install VirtualBox
 
@@ -18,14 +18,14 @@ Install minikube
 curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.22.3/minikube-linux-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
 ```
 
-# Running Kubernetes Cluster Locally via Minikube
+## Running Kubernetes Cluster Locally via Minikube
 
 Start minkube 
 ```
 minikube start
 ```
 
-# Clone Kubernetes dashboard and install the dependencies
+## Clone Kubernetes dashboard and install the dependencies
 
 Make sure the following software is installed
 
@@ -44,7 +44,7 @@ Install the dependencies
 cd dashboard
 npm i
 ```
-# Run Kubernetes dashboard with minikube
+## Run Kubernetes dashboard with minikube
 
 Create kubernetes proxy
 ```
@@ -56,7 +56,7 @@ gulp serve
 ```
 Open a browser and access the UI under http://localhost:9090
 
-# Setting up OpenEBS in Kubernetes
+## Setting up OpenEBS in Kubernetes
 
 Set up Open-iSCSI 
 ```
