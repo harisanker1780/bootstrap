@@ -12,6 +12,17 @@ Install minikube curl -Lo minikube https://storage.googleapis.com/minikube/relea
 Start minkube minikube start
 ```
 
+## Clone Kubernetes dashboard and install the dependencies
+
+```
+Make sure the following software is installed
+* Docker 1.10+ 
+* Golang 1.8+
+* Node.js 8+ and npm 5+
+* Java 7+
+* Gulp.js 3.9+
+```
+
 ## Starting minikube.
 
 ```
