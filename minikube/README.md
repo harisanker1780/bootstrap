@@ -54,7 +54,7 @@ Open a browser and access the UI under http://localhost:9090
 
 ## Setting up OpenEBS in Kubernetes
 
-set up Open-iSCSI 
+Set up Open-iSCSI 
 ```
 sudo apt-get update
 sudo apt-get install open-iscsi
