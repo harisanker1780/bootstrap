@@ -46,11 +46,11 @@ Create kubernetes proxy
 ```
 kubectl proxy --port=8080
 ```
-Run kubernetes dashboard 
+Open a new terminal and cd to kubernetes dashboard directory and run following command
 ```
 gulp serve
 ```
-Open a browser and access the UI under localhost:9090
+Open a browser and access the UI under http://localhost:9090
 
 ## Setting up OpenEBS in Kubernetes
 
@@ -64,6 +64,8 @@ Perform this procedure to run OpenEBS operator
 kubectl create/apply -f https://github.com/openebs/openebs/blob/master/k8s/openebs-operator.yaml
 kubectl create/apply -f https://github.com/openebs/openebs/blob/master/k8s/openebs-storageclasses.yaml
 ```
+Now you should be able to see OpenEBS Pods under http://localhost:9090/#!/pod?namespace=default
+and Storage Classes under http://localhost:9090/#!/storageclass?namespace=default
 
 ## Refer
 - https://github.com/kubernetes/minikube
