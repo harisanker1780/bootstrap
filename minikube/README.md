@@ -16,6 +16,7 @@ Start minkube minikube start
 
 ```
 Make sure the following software is installed
+```
 * [Docker 1.10+] (http://github.com)
 * Golang 1.8+
 * Node.js 8+ and npm 5+
