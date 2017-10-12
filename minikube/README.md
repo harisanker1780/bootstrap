@@ -61,8 +61,8 @@ sudo apt-get install open-iscsi
 ```
 Perform this procedure to run OpenEBS operator 
 ```
-kubectl create/apply -f https://github.com/openebs/openebs/blob/master/k8s/openebs-operator.yaml
-kubectl create/apply -f https://github.com/openebs/openebs/blob/master/k8s/openebs-storageclasses.yaml
+kubectl create/apply -f https://raw.githubusercontent.com/openebs/openebs/master/k8s/openebs-operator.yaml
+kubectl create/apply -f https://raw.githubusercontent.com/openebs/openebs/master/k8s/openebs-storageclasses.yaml
 ```
 Now you should be able to see OpenEBS Pods under http://localhost:9090/#!/pod?namespace=default
 and Storage Classes under http://localhost:9090/#!/storageclass?namespace=default
